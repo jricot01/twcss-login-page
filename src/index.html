@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#F2F8FF]">
+    <section
+      class="bg-[#E3EBF6] w-[1780px] h-[890px] rounded-[100px] flex shadow-lg mx-auto items-center self-center mt-5"
+    >
+      <div class="flex items-center">
+        <div class="inline-block">
+          <h1 class="text-[64px] font-medium text-[#54618B] ml-[200px]">
+            Login
+          </h1>
+          <p
+            class="text-[26px] font-medium text-[#8B99A9] ml-[200px] mb-[40px]"
+          >
+            If you are already a a member, Log In
+          </p>
+          <div>
+            <input
+              class="w-[580px] h-[70px] text-[24px] font-medium text-[#A3ABC0] rounded-[20px] border-[2px] border-[#8B99A9] pl-[30px] ml-[200px] mb-[30px]"
+              type="text"
+              name="email"
+              placeholder="Email"
+            />
+          </div>
+          <div>
+            <input
+              class="w-[580px] h-[70px] text-[24px] font-medium text-[#A3ABC0] rounded-[20px] border-[2px] border-[#8B99A9] pl-[30px] ml-[200px] mb-[30px]"
+              type="text"
+              name="password"
+              placeholder="Password"
+            />
+          </div>
+          <div>
+            <button
+              class="w-[580px] h-[70px] bg-[#445279] text-[32px] font-medium text-[#E3EBF6] rounded-[20px] ml-[200px] hover:bg-[#2e3852] duration-1000"
+            >
+              Login
+            </button>
+          </div>
+
+          <div
+            class="ml-[200px] grid grid-cols-3 items-center text-[#8C98B5] my-[20px]"
+          >
+            <hr class="border-[#B8C5E0] border-[1px]" />
+            <p class="text-center text-[24px]">OR</p>
+            <hr class="border-[#B8C5E0] border-[1px]" />
+          </div>
+
+          <div>
+            <button
+              class="w-[580px] h-[70px] text-[24px] font-medium rounded-[20px] border-[2px] border-[#8B99A9] pl-[30px] bg-white text-[#A3ABC0] ml-[200px] mb-[30px] flex justify-center items-center hover:bg-[#8B99A9] duration-1000 hover:text-white"
+            >
+              <img
+                class="h-[36px] pr-[20px]"
+                src="img/icons8_google_48px.png"
+                alt="google-icon"
+              />
+              Login with google
+            </button>
+          </div>
+          <div>
+            <button
+              class="w-[580px] h-[70px] text-[24px] font-medium rounded-[20px] border-[2px] border-[#8B99A9] pl-[30px] bg-white text-[#A3ABC0] ml-[200px] mb-[30px] flex justify-center items-center hover:bg-[#8B99A9] duration-1000 hover:text-white"
+            >
+              <img
+                class="h-[36px] pr-[20px]"
+                src="img/icons8_facebook_48px.png"
+                alt="facebook-icon"
+              />
+              Login with Facebook
+            </button>
+          </div>
+          <div
+            class="ml-[200px] mb-[10px] bg-[#B8C5E0] w-[580px] h-[2px]"
+          ></div>
+          <p
+            class="text-[20px] text-[#8C98B5] font-regular ml-[200px] mb-[5px] cursor-pointer"
+          >
+            Forgot my password
+          </p>
+          <div class="flex items-center">
+            <p class="text-[20px] text-[#8C98B5] font-regular pr-3 ml-[200px]">
+              If you don't have an account
+            </p>
+            <button
+              class="text-[20px] text-[#E3EBF6] bg-[#445279] px-4 py-1 rounded-[12px] h-34 w-120 hover:bg-[#2e3852] duration-1000"
+            >
+              Register
+            </button>
+          </div>
+        </div>
+
+        <div class="ml-[270px] mr-[40px]">
+          <img
+            class="h-[800px] w-[701px] rounded-[100px]"
+            src="img/3d-room.jpg"
+            alt="3d-room"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
